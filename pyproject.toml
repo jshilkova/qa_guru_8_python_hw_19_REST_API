@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reqres-api-tests"
+version = "0.1.0"
+description = "Testing the reqres API to learn API testing with python"
+authors = ["Julia Shilkova <yulia.shikova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jsonschema = "^4.20.0"
+pytest = "^7.4.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
